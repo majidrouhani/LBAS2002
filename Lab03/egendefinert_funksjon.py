@@ -15,3 +15,4 @@ print("Arealet til sirkelen med radius ", radius, "er:",areal)
 
 #eller
 print("Arealet til sirkelen med radius {0} er: {1}".format(radius,areal))
+
