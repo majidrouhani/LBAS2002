@@ -3,28 +3,28 @@ import lab04.min_statistikk_pakke.statistikk as stat,lab04.min_statistikk_pakke.
 def test():
     #Test 1: heltall
     tall = 4
-    tall = matte.opphoydI(tall, 2)
-    print("Test 1: ",tall)
+    resultat = matte.opphoydI(tall, 2)
+    print("Test 1: ",resultat)
 
     #Test 2: flyttall
     tall = 4.2
-    tall = matte.opphoydI(tall, 2)
-    print("Test 2: ",tall)
+    resultat = matte.opphoydI(tall, 2)
+    print("Test 2: ",resultat)
 
     #Test 3: Ugyldig tall
     tall = '4'
-    tall = matte.opphoydI(tall, 2)
-    print("Test 3: ",tall)
+    resultat = matte.opphoydI(tall, 2)
+    print("Test 3: ",resultat)
 
     #Test 4: Liste
     tall = [2,4,6]
-    tall = matte.opphoydI(tall, 2)
-    print("Test 4: ",tall)
+    resultat = matte.opphoydI(tall, 2)
+    print("Test 4: ",resultat)
 
     #Test 5: Liste med et ugyldig tall
     tall = [2,4,'7',6]
-    tall = matte.opphoydI(tall, 3)
-    print("Test 5: ",tall)
+    resultat = matte.opphoydI(tall, 3)
+    print("Test 5: ",resultat)
 
     #Test 6: gjennomsnitt
     tallListe = [2,4,6]
