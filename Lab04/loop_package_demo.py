@@ -1,4 +1,5 @@
-import lab04.min_statistikk_pakke.statistikk as stat,lab04.min_statistikk_pakke.matematikk as matte
+import lab04.min_statistikk_pakke.statistikk as stat
+import lab04.min_statistikk_pakke.matematikk as matte
 
 def test():
     #Test 1: heltall
