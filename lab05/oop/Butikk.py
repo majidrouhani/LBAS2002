@@ -1,15 +1,14 @@
 from lab05.oop.Eple import Eple
 
 
-groennEple = Eple("Grønn",10,"Nei")
-roedEple = Eple("Rød",100,"Ja")
+class Butikk:
+    def __init__(self,navn):
+        self.navn = navn
+        self.varer = []
+        self.eple_lager()
 
-print("\n***TEST 1***")
-print(groennEple.get_farge())
-print(roedEple.to_string())
-
-#Liste med diverse epler
-epler = [Eple("Grønn",100,"Nei"),
+    def eple_lager(self):
+        self.varer = [Eple("Grønn",100,"Nei"),
          Eple("Grønn",120,"Nei"),
          Eple("Grønn",150,"Nei"),
          Eple("Grønn",200,"Nei"),
@@ -19,25 +18,24 @@ epler = [Eple("Grønn",100,"Nei"),
          Eple("Rød",220,"Ja"),
          Eple("Rød",190,"Nei")]
 
-"""
-Returnerer en liste med epler der vekten er mindre eller like "vekt"
-som oppfyller farge og om det er importert eller ikke.
-"""
-def bestill(list, farge,vekt,importert):
-    epler = []
-    totalVekt =0
-    for i in range(len(list)):
-        if (list[i].get_farge() == farge and
-            list[i].get_importert() == importert and
-            totalVekt+list[i].get_vekt()<vekt):
-            totalVekt += list[i].get_vekt()
-            epler.append(list[i])
-    return epler
+    """
+    Returnerer en liste med epler der vekten er mindre eller like "vekt"
+    som oppfyller farge og om det er importert eller ikke.
+    """
+    def kjop_vare(selv,vare_navn, farge,vekt,importert):
+        kjopte_varer = []
+        vare_liste =[]
 
-print("\n***TEST 2***")
+        totalVekt =0
 
-#Bestill 500g grønn eple som ikke er importert.
-minBestilling = bestill(epler,"Grønn",2000,"Nei")
+        if vare_navn == "EPLE":
+            vare_liste = selv.varer
 
-for i in range(len(minBestilling)):
-    print(minBestilling[i].to_string())
+        for i in range(len(vare_liste)):
+            if (vare_liste[i].get_farge() == farge and
+                vare_liste[i].get_importert() == importert and
+                totalVekt+vare_liste[i].get_vekt()<vekt):
+                totalVekt += vare_liste[i].get_vekt()
+                kjopte_varer.append(vare_liste[i])
+        return kjopte_varer
+
