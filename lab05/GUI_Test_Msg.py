@@ -2,7 +2,6 @@ from tkinter import *
 from tkinter import messagebox
 
 def search():
-    #print("Reg.nr er: ",regnr.get())
     messagebox.showinfo("Info", regnr.get())
 
 root = Tk()
