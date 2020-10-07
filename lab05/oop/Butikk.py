@@ -4,11 +4,11 @@ from lab05.oop.Eple import Eple
 class Butikk:
     def __init__(self,navn):
         self.navn = navn
-        self.varer = []
-        self.eple_lager()
+        self.varer = self.eple_lager()
 
     def eple_lager(self):
-        self.varer = [Eple("Grønn",100,"Nei"),
+        return [
+         Eple("Grønn",100,"Nei"),
          Eple("Grønn",120,"Nei"),
          Eple("Grønn",150,"Nei"),
          Eple("Grønn",200,"Nei"),
@@ -16,7 +16,12 @@ class Butikk:
          Eple("Rød",90,"Nei"),
          Eple("Rød",201,"Nei"),
          Eple("Rød",220,"Ja"),
-         Eple("Rød",190,"Nei")]
+         Eple("Rød",190,"Nei"),
+         Eple("Gul",180,"Nei"),
+         Eple("Gul",280,"Ja"),
+         Eple("Gul",380,"Ja"),
+         Eple("Gul",170,"Nei")
+        ]
 
     """
     Returnerer en liste med epler der vekten er mindre eller like "vekt"
