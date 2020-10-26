@@ -1,23 +1,25 @@
-import matplotlib as m
-import matplotlib.pyplot as plt
-#plt.use('TkAgg')  # Fiks for Mac
+import matplotlib
+matplotlib.use('TkAgg')  # Fiks for Mac
+#import matplotlib.pyplot as plt
 import numpy as np
 
 
 # Lag en "bar-chart" med gitte verdier på x-aksen, og antall for hver av dem
 def show_bar_chart(counts, labels, ylabel, xlabel):
     x = np.arange(len(counts))
-    m.bar(x, height=counts)
-    m.xticks(x, labels)
-    m.ylabel(ylabel)
-    m.xlabel(xlabel)
-    m.show()
+    matplotlib.bar(x, height=counts)
+    matplotlib.xticks(x, labels)
+    matplotlib.ylabel(ylabel)
+    matplotlib.xlabel(xlabel)
+    matplotlib.show()
 
 # Lag et histogram hvor gitte verdier telles opp og puttes i bøtter (bins) basert på min, max og antall
 def show_histogram(values, min, max, num_bins, ylabel, xlabel):
     bins = np.linspace(min, max, num_bins)
-    plt.hist(values, bins)
-    plt.show()
+    matplotlib.hist(values, bins)
+    matplotlib.ylabel(ylabel)
+    matplotlib.xlabel(xlabel)
+    matplotlib.show()
 
 # Test-funksjoner
 #show_bar_chart([2, 16, 3, 1, 4.5], ["a", "b", "c", "d", "e"], "Antall", "Kategori")

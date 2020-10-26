@@ -1,13 +1,13 @@
 import pymysql
 from tkinter import messagebox
 import sys
-#import pyodbc
 
 
 """
 Skrevet av: Majid Rouhani
 Opprettet: 11.09.2018
-Versjon: 1.0
+Oppdatert: 15.10.2019
+Versjon: 1.2
 
 Beskrivesle:
 Denne modulen leser data fra databasen eller registrerer/oppdaterer gjenstander.
@@ -30,20 +30,6 @@ def get_db_connection():
     else:
         return pymysql.connect(host, user, password, user)
 
-"""
-#SQL Server
-def get_sqlserver_connection():
-    if user=="":
-        messagebox.showerror("Error", "User/password for database kobling er ikke satt. Sjekk filen archive_db")
-        return False
-    else:
-        return pyodbc.connect('Driver={SQL Server};'
-                      'Server=DESKTOP-DPIOGHT\SQLEXPRESS;'
-                      'Database=mydb;'
-                      'Trusted_Connection=yes;')
-
-"""
-
 
 # Søk på gjenstander, gitt navn og/eller registreringsnummer
 def search(name, regnr):
@@ -52,7 +38,6 @@ def search(name, regnr):
     :param regnr: registreringsnummer på gjenstand. Denne kan være tom, dvs "" eller være hele/deler av registreringsnummeret. Case-sensitive!
     :return: returnerer en 2-dimensjonal liste med søkeresultater
     """
-    #db = get_db_connection()
     db = get_db_connection()
 
     if not db:
@@ -70,11 +55,10 @@ def search(name, regnr):
     for row in cursor:
         gjenstand = []
 
-        gjenstand.append(row[0])
-        gjenstand.append(row[1])
-        gjenstand.append(row[2])
-        gjenstand.append(row[3])
-        result.append(gjenstand)
+        #******************************************
+        # Oppgave 4.2
+        # Fullfør denne funksjonen slik at en 2-dimensjonal liste (result) returneres
+        #******************************************
 
     db.close()
     
@@ -90,32 +74,21 @@ def delete_gjenstand(regnr):
     :return: ingen returverdi.
 
     Funksjonen skal finne gjenstanden og slette denne.
-    1. Slett fra egenskaper-tabellen for det gitte registreringsnummeret
-    2. Slett fra proveniens-tabellen for det gitte registreringsnummeret
-    3. Slett fra gjentand-tabellen for det gitte registreringsnummeret
+    1. Finn kategori_id for denne gjenstanden (fra gjenstand-tabell) for det gitte registreringsnummeret
+    2. Slett fra egenskaper-tabellen for det gitte registreringsnummeret
+    3. Slett fra proveniens-tabellen for det gitte registreringsnummeret
+    4. Slett fra kategori-tabellen for det gitte registreringsnummeret
+    5. Slett fra gjentand-tabellen for det gitte registreringsnummeret
 
     Dersom sletting går bra, skriv en melding til skjermen.
     """
 
     #******************************************
-    #Fullfør denne funksjonen
+    # Oppgave 4.3
+    # Fullfør denne funksjonen
     #******************************************
 
     print("delete_gjenstand: "+regnr)
-
-    db = get_db_connection()
-    db.autocommit(True)
-
-    if not db:
-        sys.exit(0)
-
-    cursor = db.cursor()
-    cursor.execute("DELETE from egenskaper where regnr='" + regnr+"'")
-    cursor.execute("DELETE from proveniens where regnr='" + regnr+"'")
-    cursor.execute("DELETE from gjenstand where regnr='" + regnr+"'")
-
-    db.close()
-
 
 
 # Hent alle materialet og antall av hver som to lister
@@ -341,11 +314,12 @@ def save_cateogri_db(kategori_id, kategori):
     :return:
     """
     #****************************************
-    #Fullfør innholdet i denne funksjonen!
+    # Oppgave 4.1
+    # Fullfør innholdet i denne funksjonen!
     #****************************************
 
     # Logger resultatet til konsollet
-    #print("save_cateogri_db: rowcount=" + str(cursor.rowcount))
+    print("save_cateogri_db: rowcount=" + str(cursor.rowcount))
 
 #Lagrer gjenstand i basen
 def save_gjenstand_db(giver_val,
@@ -376,23 +350,9 @@ def save_gjenstand_db(giver_val,
     """
 
     #****************************************
-    #Fullfør innholdet i denne funksjonen!
+    # Oppgave 4.1
+    # Fullfør innholdet i denne funksjonen!
     #****************************************
-    db = get_db_connection()
-
-    if not db:
-        sys.exit(0)
-
-    db.autocommit(True)
-    cursor = db.cursor()
-
-    if regnr_exist(regnr,'gjenstand'):
-        cursor.execute("UPDATE gjenstand SET giver=%s,inndato=%s,kategori_id=%s,kommentar=%s,mottattav=%s,navn=%s,plassering=%s,regav=%s,regdato=%s WHERE regnr=%s",
-                       (giver_val,innlemmet_dato_val,kategori_id,kommentar_val,mottatt_av_val,navn_val,plassering_val,registrert_av_val,registrerings_dato_val,regnr))
-    else:
-        cursor.execute("INSERT INTO gjenstand (giver,inndato,kategori_id,kommentar,mottattav,navn,plassering,regav,regdato,regnr) VALUES(%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)",
-                       (giver_val,innlemmet_dato_val,kategori_id,kommentar_val,mottatt_av_val,navn_val,plassering_val,registrert_av_val,registrerings_dato_val,regnr))
-    db.close()
 
     # Logger resultatet til konsollet
     print("save_gjenstand_db: rowcount=" + str(cursor.rowcount))

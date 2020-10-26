@@ -27,14 +27,14 @@ class Butikk:
     Returnerer en liste med epler der vekten er mindre eller like "vekt"
     som oppfyller farge og om det er importert eller ikke.
     """
-    def kjop_vare(selv,vare_navn, farge,vekt,importert):
+    def kjop_vare(self,vare_navn, farge,vekt,importert):
         kjopte_varer = []
         vare_liste =[]
 
         totalVekt =0
 
         if vare_navn == "EPLE":
-            vare_liste = selv.varer
+            vare_liste = self.varer
 
         for i in range(len(vare_liste)):
             if (vare_liste[i].get_farge() == farge and
