@@ -56,8 +56,9 @@ def view_materiale_statistics():
      Kaller funksjonen archive_db.get_materialet_counts som returnerer liste med gjenstander grupper etter materialet og antall
      Deretter kalles funkasjonen archive_statistics.show_bar_chart for å tegne grafen.
     """
-    counts, materiale = archive_db.get_materialet_counts()
-    archive_statistics.show_bar_chart(materiale,counts,"Antall","Materialet" )
+    materiale,counts = archive_db.get_materialet_counts()
+
+    archive_statistics.show_histogram(counts,materiale,"Antall","Materialet" )
 
 # Definerer aksjon for dobbeltklikk på en gjenstand i lista
 def edit_gjenstand(event):

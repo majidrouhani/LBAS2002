@@ -14,10 +14,19 @@ def show_bar_chart(counts, labels, ylabel, xlabel):
     m.show()
 
 # Lag et histogram hvor gitte verdier telles opp og puttes i bøtter (bins) basert på min, max og antall
-def show_histogram(values, min, max, num_bins, ylabel, xlabel):
+def show_histogram_tall(values, min, max, num_bins, ylabel, xlabel):
     bins = np.linspace(min, max, num_bins)
     plt.hist(values, bins)
     plt.show()
+
+
+def show_histogram(materialet, counts, ylabel, xlabel):
+
+    plt.bar(materialet, height=materialet)
+    plt.xticks(materialet, counts)
+    plt.ylim(0,max(counts))
+    plt.show()
+
 
 # Test-funksjoner
 #show_bar_chart([2, 16, 3, 1, 4.5], ["a", "b", "c", "d", "e"], "Antall", "Kategori")

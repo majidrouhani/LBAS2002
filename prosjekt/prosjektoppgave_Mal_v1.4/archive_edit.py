@@ -1,15 +1,11 @@
 from tkinter import *
-from prosjekt.prosjektoppgave.archive_db import *
-
-from datetime import *
-import sys
-from tkinter import messagebox
-
+from prosjekt.prosjektoppgave_v13.archive_db import *
 
 """
 Skrevet av: Majid Rouhani
 Opprettet: 11.09.2018
-Versjon: 1.0
+Oppdatert: 05.10.2019
+Versjon: 1.1
 
 Beskrivesle:
 Denne modulen håndterer registrering/oppdatering av data. 
@@ -20,17 +16,6 @@ Endret dato, endret av, versjon
 <dato>, <navn>, <versjon>
 -----------------------------------------------------------------------------------------------------------
 """
-
-def valider_dato(dato):
-    date_format = '%d.%m.%Y' # dd.mm.yyyy, 25/8/2019
-    try:
-        date_obj = datetime.strptime(dato, date_format).date()
-        return dato
-    except ValueError:
-        messagebox.showerror("Error", "Dato skal være på formen: DD.MM.YYYY")
-        #sys.exit(0)
-        return False
-
 
 # Åpner eget vindu for å editere person
 def open_edit(root, search, gjenstand_data=None):
@@ -90,18 +75,12 @@ def open_edit(root, search, gjenstand_data=None):
         """
         registreringsnr_val=registreringsnr.get()
         giver_val = giver.get()
-        innlemmet_dato_val = valider_dato(innlemmet_dato.get())
-        if  innlemmet_dato_val == False:
-            return False
-
+        innlemmet_dato_val = innlemmet_dato.get()
         kommentar_val = ""
         mottatt_av_val = mottatt_av.get()
         plassering_val = plassering.get()
         registrert_av_val = registrert_av.get()
-        registrerings_dato_val = valider_dato(registrerings_dato.get())
-        if  registrerings_dato_val == False:
-            return False
-
+        registrerings_dato_val = registrerings_dato.get()
         navn_val=betegnelse.get()
 
         save_gjenstand_db(giver_val,
@@ -142,11 +121,11 @@ def open_edit(root, search, gjenstand_data=None):
             messagebox.showerror("Error", "Registreringsnummer må oppgis")
             exit(0)
 
-        if save_gjenstand(kategori_id)!=False:
-            save_egenskaper()
-            save_proveniens()
-            messagebox.showinfo("Registrering", "Registrering av ny gjenstand er fullført!")
-            window.destroy()
+        save_gjenstand(kategori_id)
+        save_egenskaper()
+        save_proveniens()
+        messagebox.showinfo("Registrering", "Registrering av ny gjenstand er fullført!")
+        window.destroy()
 
     # Definerer aksjon for sletting
     def delete():
