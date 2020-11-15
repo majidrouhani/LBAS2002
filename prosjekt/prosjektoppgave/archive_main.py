@@ -50,14 +50,22 @@ def new_archive():
     """
     archive_edit.open_edit(root, search)
 
-# Definerer aksjon for menyvalget "Vis aldersdistribusjon"
+# Definerer aksjon for menyvalget "Vis materialet distribusjon"
 def view_materiale_statistics():
     """
      Kaller funksjonen archive_db.get_materialet_counts som returnerer liste med gjenstander grupper etter materialet og antall
-     Deretter kalles funkasjonen archive_statistics.show_bar_chart for å tegne grafen.
     """
     materiale,counts = archive_db.get_materialet_counts()
     archive_statistics.show_histogram(materiale,counts,"Materialet","Antall")
+
+
+# Definerer aksjon for menyvalget "Vis kategori distribusjon"
+def view_kategri_statistics():
+    """
+     Kaller funksjonen archive_db.get_kategori_counts som returnerer liste med gjenstander grupper etter materialet og antall
+    """
+    kategori,counts = archive_db.get_kategori_counts()
+    archive_statistics.show_histogram(kategori,counts,"Kategori","Antall")
 
 # Definerer aksjon for dobbeltklikk på en gjenstand i lista
 def edit_gjenstand(event):
@@ -109,7 +117,7 @@ gjenstandMenu = Menu(menubar, tearoff=0)
 gjenstandMenu.add_command(label="Registrer ny", command=new_archive)
 statisticsMenu = Menu(menubar, tearoff=0)
 statisticsMenu.add_command(label="Se materiale distriobusjon", command=view_materiale_statistics)
-statisticsMenu.add_command(label="Se materiale distriobusjon", command=view_materiale_statistics)
+statisticsMenu.add_command(label="Se kategori distriobusjon", command=view_kategri_statistics)
 menubar.add_cascade(label="Gjenstand", menu=gjenstandMenu)
 menubar.add_cascade(label="Statistikk", menu=statisticsMenu)
 root.config(menu=menubar)

@@ -146,6 +146,34 @@ def get_materialet_counts():
 
     return counts, materiale
 
+# Hent alle gategori og antall av hver som to lister
+def get_kategori_counts():
+    """
+    Les antall gjenstander fra databasen gruppert på 'materialet'
+    Legg resultatet i to lister: materialet og counts
+    :return: counts (liste med tall), materialet (liste med gjenstands materialet)
+    """
+    db = get_db_connection()
+
+    if not db:
+        sys.exit(0)
+
+    cursor = db.cursor()
+    cursor.execute("SELECT count(g.regnr),k.katnavn FROM gjenstand g, kategori k WHERE g.kategori_id = k.kategori_id group by k.katnavn")
+
+    kategori = []
+    counts = []
+    for row in cursor:
+        kategori.append(row[0])
+        counts.append(row[1])
+
+    db.close()
+
+    # Logger antall rader funnet til konsollet
+    print("get_kategori_counts: rowcount=" + str(len(kategori)))
+
+    return counts, kategori
+
 # Hent all informasjon om en gjenstand basert på regnr
 def hent_gjenstand(regnr):
     """

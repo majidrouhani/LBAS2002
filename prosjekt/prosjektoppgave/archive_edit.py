@@ -264,7 +264,6 @@ def open_edit(root, search, gjenstand_data=None):
     #Kategori
     r+=1
     choices = get_kategori()
-    kategori.set(next(iter(choices.keys())))
 
     Label(identifikasjon_group,text="Velg kategori:",width=25).grid(row=r,column=0,sticky=W)
     #Entry(identifikasjon_group,textvariable=kategori,width=35).grid(row=r,column=1)
