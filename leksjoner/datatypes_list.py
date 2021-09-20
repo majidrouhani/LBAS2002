@@ -12,15 +12,16 @@ Str -> Tekst, f.eks. 'Dette er en tekst', '01234', 'N10'
 '''
 
 
-hver_dager = ['Mandag', 'Tirsdag', 'Onsdag', 'Torsdag', 'Fredag']
+hverdager = ['Mandag', 'Tirsdag', 'Onsdag', 'Torsdag', 'Fredag']
 helg = ['Lørdag', 'Søndag']
 
-uke_dager =hver_dager + helg
+uke_dager = hverdager + helg
 
-print(hver_dager)
+print(hverdager)
 print(helg)
 print(uke_dager)
 
 print(uke_dager[0])
 
 print(len(uke_dager))
+
