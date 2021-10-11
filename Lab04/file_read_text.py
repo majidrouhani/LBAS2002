@@ -1,12 +1,12 @@
-minFil = open ("data/dummytext.txt","r")
+min_fil = open ("./data/dummytext.txt", "r")
 
 fortsett=True
 while fortsett:
-    linje=minFil.readline()
+    linje=min_fil.readline()
 
     if linje=="":
         fortsett=False
     else:
         print(linje)
 
-minFil.close()
+min_fil.close()
