@@ -320,7 +320,7 @@ def save_cateogri_db(kategori_id, kategori):
     #****************************************
 
     # Logger resultatet til konsollet
-    print("save_cateogri_db: rowcount=" + str(cursor.rowcount))
+    #print("save_cateogri_db: rowcount=" + str(cursor.rowcount))
 
 #Lagrer gjenstand i basen
 def save_gjenstand_db(giver_val,
@@ -356,7 +356,7 @@ def save_gjenstand_db(giver_val,
     #****************************************
 
     # Logger resultatet til konsollet
-    print("save_gjenstand_db: rowcount=" + str(cursor.rowcount))
+    #print("save_gjenstand_db: rowcount=" + str(cursor.rowcount))
 
 #Lagre egenskaper til gjenstand
 def save_egenskaper_db(fysiske_egenskaper_val,

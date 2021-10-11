@@ -1,5 +1,5 @@
 from tkinter import *
-from prosjekt.prosjektoppgave_v13.archive_db import *
+from archive_db import *
 
 """
 Skrevet av: Majid Rouhani

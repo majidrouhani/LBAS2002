@@ -1,8 +1,7 @@
 from tkinter import *
-import prosjekt.prosjektoppgave_v13.archive_edit as archive_edit
-import prosjekt.prosjektoppgave_v13.archive_db as archive_db
-import prosjekt.prosjektoppgave_v13.archive_statistics as archive_statistics
-
+import archive_edit
+import archive_db
+import archive_statistics
 
 """
 Skrevet av: Majid Rouhani
@@ -29,6 +28,7 @@ Endret dato, endret av, versjon
 # Global liste for søkeresultatet
 result = []
 
+
 # Definerer aksjon for arkivsøket
 def search():
     """
@@ -42,14 +42,16 @@ def search():
     db_result = archive_edit.search(name.get(), regnr.get())
     for element in db_result:
         result.append(element)
-        result_listbox.insert(END, element[0]+", "+element[1]+", "+element[2]+", "+element[3])
-       
+        result_listbox.insert(END, element[0] + ", " + element[1] + ", " + element[2] + ", " + element[3])
+
+
 # Definerer aksjon for menyvalget "Registrer Ny"
 def new_archive():
     """"
     Kaller funksjonen archive_edit.open_edit som åpner et vindu for å registrere ny gjenstand
     """
     archive_edit.open_edit(root, search)
+
 
 # Definerer aksjon for menyvalget "Vis aldersdistribusjon"
 def view_materiale_statistics():
@@ -58,7 +60,8 @@ def view_materiale_statistics():
      Deretter kalles funkasjonen archive_statistics.show_bar_chart for å tegne grafen.
     """
     counts, materiale = archive_db.get_materialet_counts()
-    archive_statistics.show_histogram(materiale,counts,10,100,"Antall","Materialet" )
+    archive_statistics.show_histogram(materiale, counts, 10, 100, "Antall", "Materialet")
+
 
 # Definerer aksjon for dobbeltklikk på en gjenstand i lista
 def edit_gjenstand(event):
@@ -87,7 +90,7 @@ regnr = StringVar()  # Definerer en tekstvariabel for tekstfeltet
 regnr_entry = Entry(root, textvariable=regnr)
 
 # Oppretter en knapp med teksten "Søk", som kaller funksjonen search() ved trykk
-search_button = Button(root, text="Søk", command=search)  
+search_button = Button(root, text="Søk", command=search)
 
 # Oppretter listeboks med scrollbar for søkeresultat
 scrollbar = Scrollbar(root, orient=VERTICAL)
