@@ -1,13 +1,16 @@
 
 
 
-mineTall = []
+mine_tall = []
 
 while True:
-    tall = float(input("Oppgi et tall: "))
-    if tall == -1:
-        break
-    else:
-       mineTall.append(tall)
+    try:
+        tall = float(input("Oppgi et tall: "))
+        if tall == -1:
+            break
+        else:
+           mine_tall.append(tall)
+    except ValueError as err:
+        print("Ugyldig input!",err, "Prøv igjen")
 
-print(mineTall)
+print(mine_tall)
