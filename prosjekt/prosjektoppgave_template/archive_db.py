@@ -75,11 +75,9 @@ def delete_gjenstand(regnr):
     :return: ingen returverdi.
 
     Funksjonen skal finne gjenstanden og slette denne.
-    1. Finn kategori_id for denne gjenstanden (fra gjenstand-tabell) for det gitte registreringsnummeret
-    2. Slett fra egenskaper-tabellen for det gitte registreringsnummeret
-    3. Slett fra proveniens-tabellen for det gitte registreringsnummeret
-    4. Slett fra kategori-tabellen for det gitte registreringsnummeret
-    5. Slett fra gjentand-tabellen for det gitte registreringsnummeret
+    1. Slett fra egenskaper-tabellen for det gitte registreringsnummeret
+    2. Slett fra proveniens-tabellen for det gitte registreringsnummeret
+    3. Slett fra gjentand-tabellen for det gitte registreringsnummeret
 
     Dersom sletting går bra, skriv en melding til skjermen.
     """
