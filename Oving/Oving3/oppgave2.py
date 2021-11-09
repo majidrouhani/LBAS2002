@@ -1,7 +1,11 @@
+"""
+Øving i enkel GUI.
+Programmet ber brukeren om å skrive en melding. Deretter vises melding til bruker via en dialogboks.
+"""
 from tkinter import Tk, Label, StringVar, Entry, Button,messagebox
 
 
-def melding():
+def show_message():
     messagebox.showinfo("Melding","Hei "+name.get())
 
 
@@ -21,8 +25,8 @@ name_entry = Entry(root, textvariable=name)
 name_label.grid(column=0, row=0, padx=2, pady=2)
 name_entry.grid(column=1, row=0, padx=2, pady=2)
 
-v = Button(root, text="OK", command=melding)
-v.grid(row=1,column=1)
+ok_message = Button(root, text="OK", command=show_message)
+ok_message.grid(row=1, column=1)
 
 
 # Starter GUI'et

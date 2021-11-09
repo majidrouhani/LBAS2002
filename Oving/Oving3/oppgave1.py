@@ -1,26 +1,29 @@
+"""
+Programmet tar i mot setninger fra bruker og lagrer disse i fil
+"""
 
-utFil=open("utFil.txt","w")
+ut_fil=open("utFil.txt", "w")
 
 fortsett=True
-setningListe = []
+setning_liste = []
 
 while True:
     setning = input("Skriv inn en setning: ")
     if setning == "-1":
         break
     else:
-        setningListe.append(setning)
+        setning_liste.append(setning)
 
 print("Skriver til fil")
 
 #Alternativ 1
-utFil.write("Alternativ 1: \n")
-for i in range(0,len(setningListe)):
-    utFil.write(setningListe[i]+"\n")
+ut_fil.write("Alternativ 1: \n")
+for i in range(0, len(setning_liste)):
+    ut_fil.write(setning_liste[i] + "\n")
 
 
 #Alternativ 2
-utFil.write("\nAlternativ 2:")
-utFil.write("\n".join(setningListe))
+ut_fil.write("\nAlternativ 2:")
+ut_fil.write("\n".join(setning_liste))
 
-utFil.close()
+ut_fil.close()
