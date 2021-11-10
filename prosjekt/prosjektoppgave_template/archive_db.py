@@ -173,22 +173,22 @@ def get_next_category_id():
     cursor = db.cursor()
     cursor.execute("SELECT max(kategori_id) as kategori_id FROM kategori")
 
-    kategoti_id = ""
+    kategori_id = ""
 
     for row in cursor:
-      kategoti_id=  str(row[0])
+      kategori_id=  str(row[0])
 
     db.close()
 
     # Logger antall rader funnet til konsollet
-    print("kategoti_id: " + kategoti_id)
+    print("kategori_id: " + kategori_id)
 
-    if int(kategoti_id)==0:
-        next_kategoti_id=1
+    if int(kategori_id)==0:
+        next_kategori_id=1
     else:
-        next_kategoti_id = int(kategoti_id)+1
+        next_kategori_id = int(kategori_id)+1
 
-    return next_kategoti_id
+    return next_kategori_id
 
 #Get next kategori_id
 def get_category_id(katnavn):
@@ -203,18 +203,18 @@ def get_category_id(katnavn):
     cursor = db.cursor()
     cursor.execute("SELECT kategori_id FROM kategori WHERE katnavn='" + katnavn+"'")
 
-    kategoti_id = ""
+    kategori_id = ""
 
     for row in cursor:
-      kategoti_id=  str(row[0])
+      kategori_id=  str(row[0])
 
     db.close()
 
     # Logger antall rader funnet til konsollet
-    print("kategoti_id: " + kategoti_id)
+    print("kategori_id: " + kategori_id)
 
 
-    return kategoti_id
+    return kategori_id
 
 
 def get_kategori():
@@ -231,8 +231,6 @@ def get_kategori():
 
     cursor = db.cursor()
     cursor.execute("SELECT kategori_id, katnavn FROM kategori")
-
-    kategoti_id = ""
 
     for row in cursor:
       kategori_dic.update({row[1]: row[0]})
