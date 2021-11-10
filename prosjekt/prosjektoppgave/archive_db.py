@@ -358,23 +358,6 @@ def kategori_exist(kategori_id):
     else:
         return True
 
-#Lagre kategori info i basen
-def save_cateogri_db(kategori_id, kategori):
-    """
-    Lagre kategori info i databasen.
-    Dersom den finnes allerede, blir kategori oppdatert
-    Dersom den ikke finnes, blir den opprettet.
-    :param kategori_id: int
-    :param kategori: string
-    :return:
-    """
-    #****************************************
-    #Fullfør innholdet i denne funksjonen!
-    #****************************************
-
-    # Logger resultatet til konsollet
-    #print("save_cateogri_db: rowcount=" + str(cursor.rowcount))
-
 #Lagrer gjenstand i basen
 def save_gjenstand_db(giver_val,
                       innlemmet_dato_val,

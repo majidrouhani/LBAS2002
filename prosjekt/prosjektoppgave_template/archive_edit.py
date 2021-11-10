@@ -94,27 +94,13 @@ def open_edit(root, search, gjenstand_data=None):
                           registrerings_dato_val,
                           registreringsnr_val)
 
-    #Ikke i bruk
-    def save_category():
-        """
-        Lokal funksjon innhenting av kategori data fra skjerm.
-        Videresender dataene til save_cateogri_db for lagring
-        :return: int
-        """
-        kategori_id=get_next_category_id()
-        kategori_val = kategori.get()
-        save_cateogri_db(kategori_id,
-                         kategori_val)
-        return kategori_id
-
     #Lage all data
     def save_data():
         """
         Hovedfunksjon for lagring av archive data.
-        Kalles videre save_category, save_gjenstand, save_egenskaper og save_proveniens
+        Kalles videre save_gjenstand, save_egenskaper og save_proveniens
         :return:
         """
-        #kategori_id = save_category()
         kategori_id = get_category_id(kategori.get())
 
         if registrerings_dato.get() == "":
