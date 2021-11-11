@@ -23,7 +23,6 @@ my_user = "" # Skriv inn brukernavnet ditt her
 my_password = "" # Skriv inn passordet ditt her
 my_database = "" # Skriv inn database instansen her
 
-
 def get_db_connection():
     if my_user== "":
         messagebox.showerror("Error", "User/password for database kobling er ikke satt. Sjekk filen archive_db")
