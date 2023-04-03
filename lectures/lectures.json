@@ -1,0 +1,81 @@
+{
+    "Programmering": "Introduksjon til Python",
+    "Leksjoner": [
+        {
+            "Leksjon 1": [
+                {
+                    "Introduksjon": [
+                        {"Motivasjon":"<a href=http://www.vg.no>Programmering er gøy</a>"},
+                        {"Litt historikk":"Startet for lenge lenge siden"},
+                        {"Komme i gang":[
+                            {"Jupyter Notebook":"Jupyter er gøy"},
+                            {"Visual Studio Code":"VSCode er enda mer gøy"}
+                        ]}
+                ]
+                },
+                {
+                    "Variabler og datatyper": [
+                        {
+                            "Enkle datatyper": "int, float"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Leksjon 2": [
+                {
+                    "Logiske uttrykk": ""
+                },
+                {
+                    "Valg": [
+                        {"if-setning": ""},
+                        {"if-else-setning":""},
+                        {"if-elif-setning":""}
+                    ]
+                }
+            ]
+        },
+        {
+            "Leksjon 3": [
+                {
+                    "Løkker": [
+                        {"For-løkke":""},
+                        {"While-løkke":""}
+                    ]
+                }
+            ]
+        },
+        {
+            "Leksjon 4": [
+                {
+                    "Sammensatte datatyper": [
+                        {"Lister":""},
+                        {"Tupler":""},
+                        {"Set":""},
+                        {"Dictionaries":""}
+                    ]
+                }
+            ]
+        },
+        {
+            "Leksjon 5": [
+                {
+                    "Filbehandling": [
+                        {"Lesing fra fil":""},
+                        {"Skriving til fil":""}
+                    ]
+                },
+                {"Unntakshåndtering":""},
+                {"Programmering mot databaser":""}
+            ]
+        },
+        {
+            "Leksjon 6": [
+                {
+                    "Object Orientert Programmering": "Introduksjon"
+                }
+            ]
+        }        
+    ]
+}

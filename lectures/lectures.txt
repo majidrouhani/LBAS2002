@@ -1,0 +1,50 @@
+{'Programmering': 'Introduksjon til Python.',
+ 'Leksjon 1' : 'Omhandler introduksjon til python samt variabler og datatyper',
+ 'Leksjon 2' : '',
+ 'Leksjon 3' : '',
+ 'Leksjon 4' : '',
+ 'Leksjon 5' : ''
+}
+
+
+	Item: Leksjon 1
+    Descr: Omhandler introduksjon til python samt variabler og datatyper.
+		Item: Introduksjon
+        Descr: 
+			Item: Motivasjon
+            Descr:
+			Item: Litt historikk
+            Descr:
+			Item:Komme i gang
+            Descr:
+				Item: Jupyter Notebook
+                Descr:
+				Item: Visual Source Code
+                Descr:
+		Variabler og datatyper
+			Enkle datatyper
+	Leksjon 2
+		Logiske uttrykk
+		Valg
+			if setning
+			if-else setning
+			if-elif setning
+			Match-case (>=3.10)
+	Leksjon 3
+		Løkker
+			For-løkke
+			While-løkke
+	Leksjon 4
+		Sammensatte datatyper
+			Lister
+			Tupler
+			Set
+			Dictionary
+	Leksjon 5
+		Filbehandling
+			Lesing fra fil
+			Skriving til fil
+		Unntakshåndtering
+		Programmering mot databaser
+	Leksjon 6
+		Intro til OOP
