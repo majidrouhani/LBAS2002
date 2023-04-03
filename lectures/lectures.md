@@ -1,2 +1,90 @@
-
-<details><summary>Programmering</summary><blockquote>Introduksjon til Python</blockquote><details><summary>Leksjoner</summary><details><summary>--Leksjon 1</summary><details><summary>----Introduksjon</summary><details><summary>------Motivasjon</summary><blockquote>------<a href=http://www.vg.no>Programmering er g�y</a></blockquote></details><details><summary>------Litt historikk</summary><blockquote>------Startet for lenge lenge siden</blockquote></details><details><summary>------Komme i gang</summary><details><summary>--------Jupyter Notebook</summary><blockquote>--------Jupyter er g�y</blockquote></details><details><summary>--------Visual Studio Code</summary><blockquote>--------VSCode er enda mer g�y</blockquote></details></details></details><details><summary>----Variabler og datatyper</summary><details><summary>------Enkle datatyper</summary><blockquote>------int, float</blockquote></details></details></details><details><summary>--Leksjon 2</summary><details><summary>----Logiske uttrykk</summary><blockquote>----</blockquote></details><details><summary>----Valg</summary><details><summary>------if-setning</summary><blockquote>------</blockquote></details><details><summary>------if-else-setning</summary><blockquote>------</blockquote></details><details><summary>------if-elif-setning</summary><blockquote>------</blockquote></details></details></details><details><summary>--Leksjon 3</summary><details><summary>----L�kker</summary><details><summary>------For-l�kke</summary><blockquote>------</blockquote></details><details><summary>------While-l�kke</summary><blockquote>------</blockquote></details></details></details><details><summary>--Leksjon 4</summary><details><summary>----Sammensatte datatyper</summary><details><summary>------Lister</summary><blockquote>------</blockquote></details><details><summary>------Tupler</summary><blockquote>------</blockquote></details><details><summary>------Set</summary><blockquote>------</blockquote></details><details><summary>------Dictionaries</summary><blockquote>------</blockquote></details></details></details><details><summary>--Leksjon 5</summary><details><summary>----Filbehandling</summary><details><summary>------Lesing fra fil</summary><blockquote>------</blockquote></details><details><summary>------Skriving til fil</summary><blockquote>------</blockquote></details></details><details><summary>----Unntaksh�ndtering</summary><blockquote>----</blockquote></details><details><summary>----Programmering mot databaser</summary><blockquote>----</blockquote></details></details><details><summary>--Leksjon 6</summary><details><summary>----Object Orientert Programmering</summary><blockquote>----Introduksjon</blockquote></details></details>
+# LBAS2002 - Informatikk: Programmering
+<details><summary><font size="5">Programmering</font></summary>
+<blockquote><font size="5"><a href='https://www.ntnu.no/studier/emner/LBAS2002'>Introduksjon til Python</a></font></blockquote>
+<details><summary><font size="5">Leksjoner</font></summary>
+<details><summary><font size="5">--Leksjon 1</font></summary>
+<details><summary><font size="5">----Introduksjon</font></summary>
+<details><summary><font size="5">------Motivasjon</font></summary>
+<blockquote><font size="5">------<a href=http://www.vg.no>Programmering er gøy</a></font></blockquote>
+</details>
+<details><summary><font size="5">------Litt historikk</font></summary>
+<blockquote><font size="5">------<a href=>Startet for lenge lenge siden</a></font></blockquote>
+</details>
+<details><summary><font size="5">------Komme i gang</font></summary>
+<details><summary><font size="5">--------Jupyter Notebook</font></summary>
+<blockquote><font size="5">--------<a href='lecture1/notes/1_intro_til_jupyter.ipynb'>Introduksjon til Jupyter Notebook</a></font></blockquote>
+</details>
+<details><summary><font size="5">--------Visual Studio Code</font></summary>
+<blockquote><font size="5">--------VSCode er enda mer gøy</font></blockquote>
+</details>
+</details>
+</details>
+<details><summary><font size="5">----Variabler og datatyper</font></summary>
+<details><summary><font size="5">------Enkle datatyper</font></summary>
+<blockquote><font size="5">------int, float</font></blockquote>
+</details>
+</details>
+</details>
+<details><summary><font size="5">--Leksjon 2</font></summary>
+<details><summary><font size="5">----Logiske uttrykk</font></summary>
+<blockquote><font size="5">----</font></blockquote>
+</details>
+<details><summary><font size="5">----Valg</font></summary>
+<details><summary><font size="5">------if-setning</font></summary>
+<blockquote><font size="5">------</font></blockquote>
+</details>
+<details><summary><font size="5">------if-else-setning</font></summary>
+<blockquote><font size="5">------</font></blockquote>
+</details>
+<details><summary><font size="5">------if-elif-setning</font></summary>
+<blockquote><font size="5">------</font></blockquote>
+</details>
+</details>
+</details>
+<details><summary><font size="5">--Leksjon 3</font></summary>
+<details><summary><font size="5">----Løkker</font></summary>
+<details><summary><font size="5">------For-løkke</font></summary>
+<blockquote><font size="5">------</font></blockquote>
+</details>
+<details><summary><font size="5">------While-løkke</font></summary>
+<blockquote><font size="5">------</font></blockquote>
+</details>
+</details>
+</details>
+<details><summary><font size="5">--Leksjon 4</font></summary>
+<details><summary><font size="5">----Sammensatte datatyper</font></summary>
+<details><summary><font size="5">------Lister</font></summary>
+<blockquote><font size="5">------</font></blockquote>
+</details>
+<details><summary><font size="5">------Tupler</font></summary>
+<blockquote><font size="5">------</font></blockquote>
+</details>
+<details><summary><font size="5">------Set</font></summary>
+<blockquote><font size="5">------</font></blockquote>
+</details>
+<details><summary><font size="5">------Dictionaries</font></summary>
+<blockquote><font size="5">------</font></blockquote>
+</details>
+</details>
+</details>
+<details><summary><font size="5">--Leksjon 5</font></summary>
+<details><summary><font size="5">----Filbehandling</font></summary>
+<details><summary><font size="5">------Lesing fra fil</font></summary>
+<blockquote><font size="5">------</font></blockquote>
+</details>
+<details><summary><font size="5">------Skriving til fil</font></summary>
+<blockquote><font size="5">------</font></blockquote>
+</details>
+</details>
+<details><summary><font size="5">----Unntakshåndtering</font></summary>
+<blockquote><font size="5">----</font></blockquote>
+</details>
+<details><summary><font size="5">----Programmering mot databaser</font></summary>
+<blockquote><font size="5">----</font></blockquote>
+</details>
+</details>
+<details><summary><font size="5">--Leksjon 6</font></summary>
+<details><summary><font size="5">----Object Orientert Programmering</font></summary>
+<blockquote><font size="5">----Introduksjon</font></blockquote>
+</details>
+</details>

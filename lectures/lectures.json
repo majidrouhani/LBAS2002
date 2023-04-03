@@ -1,14 +1,14 @@
 {
-    "Programmering": "Introduksjon til Python",
+    "Programmering": "<a href='https://www.ntnu.no/studier/emner/LBAS2002'>Introduksjon til Python</a>",
     "Leksjoner": [
         {
             "Leksjon 1": [
                 {
                     "Introduksjon": [
                         {"Motivasjon":"<a href=http://www.vg.no>Programmering er gøy</a>"},
-                        {"Litt historikk":"Startet for lenge lenge siden"},
+                        {"Litt historikk":"<a href=>Startet for lenge lenge siden</a>"},
                         {"Komme i gang":[
-                            {"Jupyter Notebook":"Jupyter er gøy"},
+                            {"Jupyter Notebook":"<a href='lecture1/notes/1_intro_til_jupyter.ipynb'>Introduksjon til Jupyter Notebook</a>"},
                             {"Visual Studio Code":"VSCode er enda mer gøy"}
                         ]}
                 ]
