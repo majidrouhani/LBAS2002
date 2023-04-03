@@ -20,8 +20,11 @@
 </details>
 </details>
 <details><summary><font size="5">----Variabler og datatyper</font></summary>
-<details><summary><font size="5">------Enkle datatyper</font></summary>
-<blockquote><font size="5">------int, float</font></blockquote>
+<details><summary><font size="5">------Variabler</font></summary>
+<blockquote><font size="5">------<a href='lecture1/notes/2_variabler.ipynb'>Enkle datatyper</a></font></blockquote>
+</details>
+<details><summary><font size="5">------Datatyper</font></summary>
+<blockquote><font size="5">------<a href='lecture1/notes/3_tall_og_type_konvertering.ipynb'>Tall og type konvertering</a></font></blockquote>
 </details>
 </details>
 </details>

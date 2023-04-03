@@ -15,9 +15,8 @@
                 },
                 {
                     "Variabler og datatyper": [
-                        {
-                            "Enkle datatyper": "int, float"
-                        }
+                        {"Variabler": "<a href='lecture1/notes/2_variabler.ipynb'>Enkle datatyper</a>"},
+                        {"Datatyper": "<a href='lecture1/notes/3_tall_og_type_konvertering.ipynb'>Tall og type konvertering</a>"}
                     ]
                 }
             ]
