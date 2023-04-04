@@ -6,7 +6,7 @@
                 {"Innhold og referanser": {"Readme":"lecture1/README.md"}},
                 {
                     "Introduksjon": [
-                        {"Motivasjon":{"Introduksjon":"lecture1/notes/pdf/1_introduksjon.pdf"}},
+                        {"Motivasjon":{"Introduksjon":"lecture1/notes/slides/1_introduksjon.pdf"}},
                         {"Utviklingsmiljø": {"Komme i gang med Jupyter Notebook": "lecture1/notes/codes/1_intro_til_jupyter.ipynb"}}
                 ]
                 },

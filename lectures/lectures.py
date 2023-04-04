@@ -23,12 +23,12 @@ def convert(data):
                 if type(value) == dict:
                     for key in list(value.keys()):
                         txt = '<blockquote><font size="5">'
-                        txt +=  tab*level 
-                        txt += '<a href=' + value.get(key) + '>' + key + '</a>'
+                        txt +=  tab*(level + 1)
+                        txt += '<a target="_blank" href=' + value.get(key) + '>' + key + '</a>'
                         txt += '</font></blockquote>'
                         out.append(txt)
                 else:
-                    out.append('<blockquote><font size="5">' + tab*level + value + '</font></blockquote>')
+                    out.append('<blockquote><font size="5">' + tab*(level+1) + value + '</font></blockquote>')
 
     convert_menu(data,0)            
     return out
