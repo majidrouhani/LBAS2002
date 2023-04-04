@@ -1,22 +1,17 @@
 # LBAS2002 - Informatikk: Programmering
 <details><summary><font size="5">Programmering</font></summary>
-<blockquote><font size="5"><a href='https://www.ntnu.no/studier/emner/LBAS2002'>Introduksjon til Python</a></font></blockquote>
+<blockquote><font size="5"><a href=https://www.ntnu.no/studier/emner/LBAS2002>Faginnhold og læringsutbytte beskrivelser</a></font></blockquote>
 <details><summary><font size="5">Leksjoner</font></summary>
 <details><summary><font size="5">--Leksjon 1</font></summary>
+<details><summary><font size="5">----Innhold og referanser</font></summary>
+<blockquote><font size="5">----<a href=lecture1/README.md>Readme</a></font></blockquote>
+</details>
 <details><summary><font size="5">----Introduksjon</font></summary>
 <details><summary><font size="5">------Motivasjon</font></summary>
-<blockquote><font size="5">------<a href=http://www.vg.no>Programmering er gøy</a></font></blockquote>
+<blockquote><font size="5">------<a href=lecture1/notes/pdf/1_introduksjon.pdf>Introduksjon</a></font></blockquote>
 </details>
-<details><summary><font size="5">------Litt historikk</font></summary>
-<blockquote><font size="5">------<a href=>Startet for lenge lenge siden</a></font></blockquote>
-</details>
-<details><summary><font size="5">------Komme i gang</font></summary>
-<details><summary><font size="5">--------Jupyter Notebook</font></summary>
-<blockquote><font size="5">--------<a href='lecture1/notes/1_intro_til_jupyter.ipynb'>Introduksjon til Jupyter Notebook</a></font></blockquote>
-</details>
-<details><summary><font size="5">--------Visual Studio Code</font></summary>
-<blockquote><font size="5">--------VSCode er enda mer gøy</font></blockquote>
-</details>
+<details><summary><font size="5">------Utviklingsmiljø</font></summary>
+<blockquote><font size="5">------<a href=lecture1/notes/codes/1_intro_til_jupyter.ipynb>Komme i gang med Jupyter Notebook</a></font></blockquote>
 </details>
 </details>
 <details><summary><font size="5">----Variabler og datatyper</font></summary>

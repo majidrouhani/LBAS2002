@@ -20,7 +20,15 @@ def convert(data):
                     convert_menu(j,level+1)
                     out.append('</details>')
             else:
-                out.append('<blockquote><font size="5">' + tab*level + value + '</font></blockquote>')
+                if type(value) == dict:
+                    for key in list(value.keys()):
+                        txt = '<blockquote><font size="5">'
+                        txt +=  tab*level 
+                        txt += '<a href=' + value.get(key) + '>' + key + '</a>'
+                        txt += '</font></blockquote>'
+                        out.append(txt)
+                else:
+                    out.append('<blockquote><font size="5">' + tab*level + value + '</font></blockquote>')
 
     convert_menu(data,0)            
     return out
