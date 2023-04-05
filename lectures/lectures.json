@@ -3,10 +3,10 @@
     "Leksjoner": [
         {
             "Leksjon 1": [
-                {"Innhold og referanser": {"Readme":"lecture1/README.md"}},
                 {
                     "Introduksjon": [
                         {"Motivasjon":{"Introduksjon":"lecture1/notes/slides/1_introduksjon.pdf"}},
+                        {"Kilder og referanser": {"Readme":"lecture1/README.md"}},
                         {"Utviklingsmiljø": {"Komme i gang med Jupyter Notebook": "lecture1/notes/codes/1_intro_til_jupyter.ipynb"}}
                 ]
                 },

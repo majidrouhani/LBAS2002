@@ -3,12 +3,12 @@
 <blockquote><font size="5">--<a target="_blank" href=https://www.ntnu.no/studier/emner/LBAS2002>Faginnhold og læringsutbytte beskrivelser</a></font></blockquote>
 <details><summary><font size="5">Leksjoner</font></summary>
 <details><summary><font size="5">--Leksjon 1</font></summary>
-<details><summary><font size="5">----Innhold og referanser</font></summary>
-<blockquote><font size="5">------<a target="_blank" href=lecture1/README.md>Readme</a></font></blockquote>
-</details>
 <details><summary><font size="5">----Introduksjon</font></summary>
 <details><summary><font size="5">------Motivasjon</font></summary>
 <blockquote><font size="5">--------<a target="_blank" href=lecture1/notes/slides/1_introduksjon.pdf>Introduksjon</a></font></blockquote>
+</details>
+<details><summary><font size="5">------Kilder og referanser</font></summary>
+<blockquote><font size="5">--------<a target="_blank" href=lecture1/README.md>Readme</a></font></blockquote>
 </details>
 <details><summary><font size="5">------Utviklingsmiljø</font></summary>
 <blockquote><font size="5">--------<a target="_blank" href=lecture1/notes/codes/1_intro_til_jupyter.ipynb>Komme i gang med Jupyter Notebook</a></font></blockquote>
