@@ -1,8 +1,8 @@
 {
-    "Programmering": {"Faginnhold og læringsutbytte beskrivelser":"https://www.ntnu.no/studier/emner/LBAS2002"},
+    "LBAS2002 Informatikk: Programmering": {"Faginnhold og læringsutbytte beskrivelser":"https://www.ntnu.no/studier/emner/LBAS2002"},
     "Leksjoner": [
         {
-            "Leksjon 1": [
+            "Leksjon 1: Introduksjon, Variabler og Datatyper": [
                 {
                     "Introduksjon": [
                         {"Motivasjon":{"Introduksjon":"lecture1/notes/slides/1_introduksjon.pdf"}},
@@ -12,28 +12,23 @@
                 },
                 {
                     "Variabler og datatyper": [
-                        {"Variabler": "<a href='lecture1/notes/2_variabler.ipynb'>Enkle datatyper</a>"},
-                        {"Datatyper": "<a href='lecture1/notes/3_tall_og_type_konvertering.ipynb'>Tall og type konvertering</a>"}
+                        {"Variabler":{"Enkle datatyper":"lecture1/notes/codes/2_variabler.ipynb"}},
+                        {"Datatyper":{"Tall og type konvertering":"lecture1/notes/codes/3_tall_og_typekonvertering.ipynb"}}
                     ]
                 }
             ]
         },
         {
-            "Leksjon 2": [
-                {
-                    "Logiske uttrykk": ""
-                },
-                {
-                    "Valg": [
-                        {"if-setning": ""},
-                        {"if-else-setning":""},
-                        {"if-elif-setning":""}
-                    ]
-                }
+            "Leksjon 2: Funksjoner og pakker, logiske uttrykk, valg": [
+                {"Funksjoner": {"Funksjoner og kalkulasjoner":"lecture2/notes/codes/1_funksjoner_og_kalkulasjoner.ipynb"}},
+                {"Pakker": {"Pakker og moduler":"lecture2/notes/codes/pakker.ipynb"}},
+                {"Logiske uttrykk": {"Logiske operasjoner":"lecture2/notes/codes/2_logiske_operatorer_uttrykk.ipynb"}},
+                {"Valg": {"if-setninger":"lecture2/notes/codes/3_ulike_typer_if_setninger.ipynb"}},
+                {"Sammenligning": {"Sammenligning av strenger":"lecture2/notes/codes/4_sammenligning_av_strenger.ipynb"}}
             ]
         },
         {
-            "Leksjon 3": [
+            "Leksjon 3: Løkker": [
                 {
                     "Løkker": [
                         {"For-løkke":""},
@@ -43,7 +38,7 @@
             ]
         },
         {
-            "Leksjon 4": [
+            "Leksjon 4: Sammensatte datatyper (lister, tupler, set)": [
                 {
                     "Sammensatte datatyper": [
                         {"Lister":""},
@@ -55,7 +50,7 @@
             ]
         },
         {
-            "Leksjon 5": [
+            "Leksjon 5: Filbehandling, unntakshåndtering": [
                 {
                     "Filbehandling": [
                         {"Lesing fra fil":""},
@@ -67,7 +62,7 @@
             ]
         },
         {
-            "Leksjon 6": [
+            "Leksjon 6: Introduksjon til objekt orientert programmering": [
                 {
                     "Object Orientert Programmering": "Introduksjon"
                 }
