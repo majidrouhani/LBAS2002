@@ -1,13 +1,13 @@
 # Lab-2
 
-## Læringsutbytte
+### Læringsutbytte
 
 * Kunne skrive enkle matematiske uttrykk i Python
 * Lære å definere funksjoner i Python
 * Kunne sette opp logiske uttrykk
 * Lære å bruke if-setningen i Python.
 
-## Læringsaktiviteter
+### Læringsaktiviteter
 
 * [Funksjoner og kalkulasjoner](funksjoner_og_kalkulasjoner.ipynb)
 * [Logiske operatorer og uttrykk](logiske_operatorer_uttrykk.ipynb)
