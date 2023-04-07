@@ -5,48 +5,57 @@
             "Leksjon 1: Introduksjon, Variabler og Datatyper": [
                 {
                     "Introduksjon": [
-                        {"Motivasjon":{"Introduksjon":"lecture1/notes/slides/1_introduksjon.pdf"}},
-                        {"Kilder og referanser": {"Readme":"lecture1/README.md"}},
-                        {"Utviklingsmiljø": {"Komme i gang med Jupyter Notebook": "lecture1/notes/codes/1_intro_til_jupyter.ipynb"}}
+                        {"Motivasjon (slides)":{"Introduksjon":"lecture1/notes/slides/introduksjon.pdf"}}
+                        ,{"Kilder og referanser": {"Readme":"lecture1/README.md"}}
+                        ,{"Utviklingsmiljø": {"Komme i gang med Jupyter Notebook": "lecture1/notes/codes/intro_til_jupyter.ipynb"}}
                 ]
-                },
-                {
+                }
+                ,{
                     "Variabler og datatyper": [
-                        {"Variabler":{"Enkle datatyper":"lecture1/notes/codes/2_variabler.ipynb"}},
-                        {"Datatyper":{"Tall og type konvertering":"lecture1/notes/codes/3_tall_og_typekonvertering.ipynb"}}
+                        {"Variabler":{"Enkle datatyper":"lecture1/notes/codes/variabler.ipynb"}}
+                        ,{"Datatyper":{"Tall og type konvertering":"lecture1/notes/codes/tall_og_typekonvertering.ipynb"}}
                     ]
                 }
+                ,{"Lab 1": {"Lab-1":"lecture1/lab/lab-1.md"}}
             ]
-        },
-        {
+        }
+        ,{
             "Leksjon 2: Funksjoner og pakker, logiske uttrykk, valg": [
-                {"Funksjoner": {"Funksjoner og kalkulasjoner":"lecture2/notes/codes/1_funksjoner_og_kalkulasjoner.ipynb"}},
-                {"Pakker": {"Pakker og moduler":"lecture2/notes/codes/pakker.ipynb"}},
-                {"Logiske uttrykk": {"Logiske operasjoner":"lecture2/notes/codes/2_logiske_operatorer_uttrykk.ipynb"}},
-                {"Valg": {"if-setninger":"lecture2/notes/codes/3_ulike_typer_if_setninger.ipynb"}},
-                {"Sammenligning": {"Sammenligning av strenger":"lecture2/notes/codes/4_sammenligning_av_strenger.ipynb"}}
+                {"Introduksjon (slides)": {"Introduksjon":"lecture2/notes/slides/lecture-2.pdf"}}
+                ,{"Funksjoner": {"Funksjoner og kalkulasjoner":"lecture2/notes/codes/funksjoner_og_kalkulasjoner.ipynb"}}
+                ,{"Pakker": {"Pakker og moduler":"lecture2/notes/codes/pakker.ipynb"}}
+                ,{"Logiske uttrykk": {"Logiske operasjoner":"lecture2/notes/codes/logiske_operatorer_uttrykk.ipynb"}}
+                ,{"Ulike typer if-setninger": {"Ulike typr if-setninger":"lecture2/notes/codes/ulike_typer_if_setninger.ipynb"}}
+                ,{"Lab 2": {"Lab-2":"lecture2/lab/lab-2.md"}}
             ]
-        },
-        {
-            "Leksjon 3: Løkker": [
-                {
+        }
+        ,{
+            "Leksjon 3: Mer om valg, løkker": [
+                {"Valg": {"if-setninger":"lecture2/notes/codes/ulike_typer_if_setninger.ipynb"}}
+                ,{"Sammenligning": {"Sammenligning av strenger":"lecture2/notes/codes/sammenligning_av_strenger.ipynb"}}
+                ,{
                     "Løkker": [
-                        {"For-løkke":""},
-                        {"While-løkke":""}
+                        {"For-løkke":""}
+                        ,{"While-løkke":""}
                     ]
                 }
+                ,{"Lab 3": {"Lab-3":"lecture3/lab/lab-3.md"}}
             ]
-        },
-        {
+        }
+        ,{
             "Leksjon 4: Sammensatte datatyper (lister, tupler, set)": [
                 {
+                    "Mer om løkker": {"":""}
+                }
+                ,{
                     "Sammensatte datatyper": [
-                        {"Lister":""},
-                        {"Tupler":""},
-                        {"Set":""},
-                        {"Dictionaries":""}
+                        {"Lister":""}
+                        ,{"Tupler":""}
+                        ,{"Set":""}
+                        ,{"Dictionaries":""}
                     ]
                 }
+                ,{"Lab 4": {"Lab-4":"lecture4/lab/lab-4.md"}}
             ]
         },
         {
@@ -56,16 +65,16 @@
                         {"Lesing fra fil":""},
                         {"Skriving til fil":""}
                     ]
-                },
-                {"Unntakshåndtering":""},
-                {"Programmering mot databaser":""}
+                }
+                ,{"Unntakshåndtering":""}
+                ,{"Programmering mot databaser":""}
+                ,{"Lab 5": {"Lab-5":"lecture5/lab/lab-5.md"}}
             ]
         },
         {
             "Leksjon 6: Introduksjon til objekt orientert programmering": [
-                {
-                    "Object Orientert Programmering": "Introduksjon"
-                }
+                {"Object Orientert Programmering": "Introduksjon"}
+                ,{"Lab 6": {"Lab-6":"lecture6/lab/lab-6.md"}}
             ]
         }        
     ]
