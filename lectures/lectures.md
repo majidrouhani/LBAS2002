@@ -53,11 +53,14 @@
 <blockquote style="font-size:200%;cursor: pointer;padding: 10px;">&emsp;&emsp;&emsp;<a target="_blank" href=lecture2/notes/codes/sammenligning_av_strenger.ipynb>Sammenligning av strenger</a></blockquote>
 </details>
 <details><summary style="font-size:200%;cursor: pointer;">&emsp;&emsp;Løkker</summary>
-<details><summary style="font-size:200%;cursor: pointer;">&emsp;&emsp;&emsp;For-løkke</summary>
-<blockquote style="font-size:200%;cursor: pointer;padding: 10px;">&emsp;&emsp;&emsp;&emsp;</blockquote>
+<details><summary style="font-size:200%;cursor: pointer;">&emsp;&emsp;&emsp;Introduksjon til løkker</summary>
+<blockquote style="font-size:200%;cursor: pointer;padding: 10px;">&emsp;&emsp;&emsp;&emsp;lecture3/notes/codes/intro_til_lokker.ipynb</blockquote>
 </details>
-<details><summary style="font-size:200%;cursor: pointer;">&emsp;&emsp;&emsp;While-løkke</summary>
-<blockquote style="font-size:200%;cursor: pointer;padding: 10px;">&emsp;&emsp;&emsp;&emsp;</blockquote>
+<details><summary style="font-size:200%;cursor: pointer;">&emsp;&emsp;&emsp;Mer om løkker</summary>
+<blockquote style="font-size:200%;cursor: pointer;padding: 10px;">&emsp;&emsp;&emsp;&emsp;lecture3/notes/codes/mer_om_lokker.ipynb</blockquote>
+</details>
+<details><summary style="font-size:200%;cursor: pointer;">&emsp;&emsp;&emsp;Nøstede løkker</summary>
+<blockquote style="font-size:200%;cursor: pointer;padding: 10px;">&emsp;&emsp;&emsp;&emsp;lecture3/notes/codes/nostede_lokker.ipynb</blockquote>
 </details>
 </details>
 <details><summary style="font-size:200%;cursor: pointer;">&emsp;&emsp;Lab 3</summary>
@@ -65,21 +68,16 @@
 </details>
 </details>
 <details><summary style="font-size:200%;cursor: pointer;">&emsp;Leksjon 4: Sammensatte datatyper (lister, tupler, set)</summary>
-<details><summary style="font-size:200%;cursor: pointer;">&emsp;&emsp;Mer om løkker</summary>
-<blockquote style="font-size:200%;cursor: pointer;padding: 10px;">&emsp;&emsp;&emsp;<a target="_blank" href=></a></blockquote>
-</details>
 <details><summary style="font-size:200%;cursor: pointer;">&emsp;&emsp;Sammensatte datatyper</summary>
 <details><summary style="font-size:200%;cursor: pointer;">&emsp;&emsp;&emsp;Lister</summary>
-<blockquote style="font-size:200%;cursor: pointer;padding: 10px;">&emsp;&emsp;&emsp;&emsp;</blockquote>
+<blockquote style="font-size:200%;cursor: pointer;padding: 10px;">&emsp;&emsp;&emsp;&emsp;<a target="_blank" href=lecture4/notes/codes/generelt_om_lister.ipynb>Generelt om lister</a></blockquote>
+<blockquote style="font-size:200%;cursor: pointer;padding: 10px;">&emsp;&emsp;&emsp;&emsp;<a target="_blank" href=lecture4/notes/codes/lister_og_lokker.ipynb>Lister og løkker</a></blockquote>
 </details>
 <details><summary style="font-size:200%;cursor: pointer;">&emsp;&emsp;&emsp;Tupler</summary>
-<blockquote style="font-size:200%;cursor: pointer;padding: 10px;">&emsp;&emsp;&emsp;&emsp;</blockquote>
+<blockquote style="font-size:200%;cursor: pointer;padding: 10px;">&emsp;&emsp;&emsp;&emsp;<a target="_blank" href=lecture4/notes/codes/lister_og_tupler.ipynb>Generelt om tupler</a></blockquote>
 </details>
 <details><summary style="font-size:200%;cursor: pointer;">&emsp;&emsp;&emsp;Set</summary>
-<blockquote style="font-size:200%;cursor: pointer;padding: 10px;">&emsp;&emsp;&emsp;&emsp;</blockquote>
-</details>
-<details><summary style="font-size:200%;cursor: pointer;">&emsp;&emsp;&emsp;Dictionaries</summary>
-<blockquote style="font-size:200%;cursor: pointer;padding: 10px;">&emsp;&emsp;&emsp;&emsp;</blockquote>
+<blockquote style="font-size:200%;cursor: pointer;padding: 10px;">&emsp;&emsp;&emsp;&emsp;<a target="_blank" href=lecture4/notes/codes/lister_og_set.ipynb>Generelt om set</a></blockquote>
 </details>
 </details>
 <details><summary style="font-size:200%;cursor: pointer;">&emsp;&emsp;Lab 4</summary>

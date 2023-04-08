@@ -35,8 +35,9 @@
                 ,{"Sammenligning": {"Sammenligning av strenger":"lecture2/notes/codes/sammenligning_av_strenger.ipynb"}}
                 ,{
                     "Løkker": [
-                        {"For-løkke":""}
-                        ,{"While-løkke":""}
+                        {"Introduksjon til løkker":"lecture3/notes/codes/intro_til_lokker.ipynb"}
+                        ,{"Mer om løkker":"lecture3/notes/codes/mer_om_lokker.ipynb"}
+                        ,{"Nøstede løkker":"lecture3/notes/codes/nostede_lokker.ipynb"}
                     ]
                 }
                 ,{"Lab 3": {"Lab-3":"lecture3/lab/lab-3.md"}}
@@ -45,14 +46,10 @@
         ,{
             "Leksjon 4: Sammensatte datatyper (lister, tupler, set)": [
                 {
-                    "Mer om løkker": {"":""}
-                }
-                ,{
                     "Sammensatte datatyper": [
-                        {"Lister":""}
-                        ,{"Tupler":""}
-                        ,{"Set":""}
-                        ,{"Dictionaries":""}
+                        {"Lister": {"Generelt om lister": "lecture4/notes/codes/generelt_om_lister.ipynb", "Lister og løkker": "lecture4/notes/codes/lister_og_lokker.ipynb"}}
+                        ,{"Tupler":{"Generelt om tupler": "lecture4/notes/codes/lister_og_tupler.ipynb"}}
+                        ,{"Set": {"Generelt om set": "lecture4/notes/codes/lister_og_set.ipynb"}}
                     ]
                 }
                 ,{"Lab 4": {"Lab-4":"lecture4/lab/lab-4.md"}}

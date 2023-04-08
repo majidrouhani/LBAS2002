@@ -1,15 +1,13 @@
-# Lab-2
+# Lab-4
 
 ## Læringsutbytte
 
-* Kunne skrive enkle matematiske uttrykk i Python
-* Lære å definere funksjoner i Python
-* Kunne sette opp logiske uttrykk
-* Lære å bruke if-setningen i Python.
+* Lære i lage lister, kopiere og redigere
+* Forstå forskjellen mellom lister og tupler
+* Bruke løkker for å traversere lister
 
 ## Læringsaktiviteter
 
-* [Funksjoner og kalkulasjoner](funksjoner_og_kalkulasjoner.ipynb)
-* [Logiske operatorer og uttrykk](logiske_operatorer_uttrykk.ipynb)
-* [Valg](ulike_typer_if_setninger.ipynb)
-* [Årstider](aarstider.ipynb)
+* [Generelt om lister](generelt_om_lister.ipynb)
+* [Lister og løkker](lister_og_lokker.ipynb)
+* [Tupler](lister_og_tupler.ipynb)
