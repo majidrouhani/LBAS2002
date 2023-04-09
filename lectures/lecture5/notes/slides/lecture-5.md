@@ -9,7 +9,7 @@ paginate: true
 
 **Læringsutbytte**
 
-* 
+* Lære å lese fra og skrive til fil
 
 ---
 

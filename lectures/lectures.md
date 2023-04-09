@@ -71,6 +71,9 @@
 </details>
 </details>
 <details><summary style="font-size:200%;cursor: pointer;">&emsp;Leksjon 4: Sammensatte datatyper (lister, tupler, set)</summary>
+<details><summary style="font-size:200%;cursor: pointer;">&emsp;&emsp;Introduksjon (slides)</summary>
+<blockquote style="font-size:200%;cursor: pointer;padding: 10px;">&emsp;&emsp;&emsp;<a target="_blank" href=lecture4/notes/slides/lecture-4.pdf>Introduksjon</a></blockquote>
+</details>
 <details><summary style="font-size:200%;cursor: pointer;">&emsp;&emsp;Sammensatte datatyper</summary>
 <details><summary style="font-size:200%;cursor: pointer;">&emsp;&emsp;&emsp;Lister</summary>
 <blockquote style="font-size:200%;cursor: pointer;padding: 10px;">&emsp;&emsp;&emsp;&emsp;<a target="_blank" href=lecture4/notes/codes/generelt_om_lister.ipynb>Generelt om lister</a></blockquote>
@@ -88,6 +91,9 @@
 </details>
 </details>
 <details><summary style="font-size:200%;cursor: pointer;">&emsp;Leksjon 5: Filbehandling, unntakshåndtering</summary>
+<details><summary style="font-size:200%;cursor: pointer;">&emsp;&emsp;Introduksjon (slides)</summary>
+<blockquote style="font-size:200%;cursor: pointer;padding: 10px;">&emsp;&emsp;&emsp;<a target="_blank" href=lecture5/notes/slides/lecture-5.pdf>Introduksjon</a></blockquote>
+</details>
 <details><summary style="font-size:200%;cursor: pointer;">&emsp;&emsp;Filbehandling</summary>
 <details><summary style="font-size:200%;cursor: pointer;">&emsp;&emsp;&emsp;Lesing fra fil</summary>
 <blockquote style="font-size:200%;cursor: pointer;padding: 10px;">&emsp;&emsp;&emsp;&emsp;</blockquote>
