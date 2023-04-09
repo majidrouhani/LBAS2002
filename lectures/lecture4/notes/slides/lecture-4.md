@@ -118,4 +118,25 @@ ukedager[0] = 'tirsdag'
 ---
 # Set
 
-Er det samme som lister med den forskjellen at elementene kan forekomme bare en gang (unike verdier). Bruker krøll-paranteser når vi definerer dem
+Er det samme som lister med den forskjellen at elementene kan forekomme bare en gang (unike verdier). Bruker krøll-paranteser når vi definerer dem. Eksempel:
+
+```python
+set1 = {1,2,3,4,5,6,7,8}
+set2 = {0,2,4,6,8,10,12}
+```
+eller
+
+```python
+set1 = set([1,2,3,4,5,6,7,8)]
+set2 = set([0,2,4,6,8,10,12)]
+```
+---
+![width:400px](../../images/set_eksempel.png)
+
+```python
+set3 = set1 & set2 # gir {2,4,6,8}
+set4 = set1 | set2 # gir {0, 1, 2, 3, 4, 5, 6, 7, 8, 10, 12}
+
+set5 = set1.intersect(s2) # samme som set3
+set6 = set1.union(set2) # samme som set2
+```

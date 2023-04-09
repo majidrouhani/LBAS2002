@@ -46,6 +46,9 @@
 </details>
 </details>
 <details><summary style="font-size:200%;cursor: pointer;">&emsp;Leksjon 3: Mer om valg, løkker</summary>
+<details><summary style="font-size:200%;cursor: pointer;">&emsp;&emsp;Introduksjon (slides)</summary>
+<blockquote style="font-size:200%;cursor: pointer;padding: 10px;">&emsp;&emsp;&emsp;<a target="_blank" href=lecture3/notes/slides/lecture-3.pdf>Introduksjon</a></blockquote>
+</details>
 <details><summary style="font-size:200%;cursor: pointer;">&emsp;&emsp;Valg</summary>
 <blockquote style="font-size:200%;cursor: pointer;padding: 10px;">&emsp;&emsp;&emsp;<a target="_blank" href=lecture2/notes/codes/ulike_typer_if_setninger.ipynb>if-setninger</a></blockquote>
 </details>

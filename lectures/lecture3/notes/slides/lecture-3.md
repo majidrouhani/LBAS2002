@@ -10,7 +10,9 @@ paginate: true
 **Læringsutbytte**
 
 * Lære å sammenligne strenger og bruk av if
-
+* Lære å bruke for-løkke
+* Lære å bruke while-løkke
+* Forstå nøstede løkker
 ---
 
 ## Sammenligning av strenger

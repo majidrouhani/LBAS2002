@@ -31,7 +31,8 @@
         }
         ,{
             "Leksjon 3: Mer om valg, løkker": [
-                {"Valg": {"if-setninger":"lecture2/notes/codes/ulike_typer_if_setninger.ipynb"}}
+                {"Introduksjon (slides)": {"Introduksjon":"lecture3/notes/slides/lecture-3.pdf"}}
+                ,{"Valg": {"if-setninger":"lecture2/notes/codes/ulike_typer_if_setninger.ipynb"}}
                 ,{"Sammenligning": {"Sammenligning av strenger":"lecture2/notes/codes/sammenligning_av_strenger.ipynb"}}
                 ,{
                     "Løkker": [
@@ -45,7 +46,8 @@
         }
         ,{
             "Leksjon 4: Sammensatte datatyper (lister, tupler, set)": [
-                {
+                {"Introduksjon (slides)": {"Introduksjon":"lecture4/notes/slides/lecture-4.pdf"}}
+                ,{
                     "Sammensatte datatyper": [
                         {"Lister": {"Generelt om lister": "lecture4/notes/codes/generelt_om_lister.ipynb", "Lister og løkker": "lecture4/notes/codes/lister_og_lokker.ipynb"}}
                         ,{"Tupler":{"Generelt om tupler": "lecture4/notes/codes/lister_og_tupler.ipynb"}}
@@ -57,7 +59,8 @@
         },
         {
             "Leksjon 5: Filbehandling, unntakshåndtering": [
-                {
+                {"Introduksjon (slides)": {"Introduksjon":"lecture5/notes/slides/lecture-5.pdf"}}
+                ,{
                     "Filbehandling": [
                         {"Lesing fra fil":""},
                         {"Skriving til fil":""}
