@@ -10,6 +10,8 @@ paginate: true
 **Læringsutbytte**
 
 * Lære å lese fra og skrive til fil
+* Lære om unntakshåndtering og kjøretidsfeil
+* Lære å koble seg mot MySql database
 
 ---
 
