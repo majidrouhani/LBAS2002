@@ -60,13 +60,7 @@
         {
             "Leksjon 5: Filbehandling, unntakshåndtering, programmering mot databaser": [
                 {"Introduksjon (slides)": {"Introduksjon":"lecture5/notes/slides/lecture-5.pdf"}}
-                ,{
-                    "Filbehandling": [
-                        {"Lesing fra fil":""},
-                        {"Skriving til fil":""}
-                    ]
-                }
-                ,{"Unntakshåndtering":""}
+                ,{"Filbehandling": {"Generelt om filbehandling":"lecture5/notes/codes/generelt_om_filbehandling.ipynb"}}
                 ,{"Programmering mot databaser":{"Lesing og skriving til database": "lecture5/notes/codes/databaser.ipynb"}}
                 ,{"Lab 5": {"Lab-5":"lecture5/lab/lab-5.md"}}
             ]

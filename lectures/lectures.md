@@ -95,15 +95,7 @@
 <blockquote style="font-size:200%;cursor: pointer;padding: 10px;">&emsp;&emsp;&emsp;<a target="_blank" href=lecture5/notes/slides/lecture-5.pdf>Introduksjon</a></blockquote>
 </details>
 <details><summary style="font-size:200%;cursor: pointer;">&emsp;&emsp;Filbehandling</summary>
-<details><summary style="font-size:200%;cursor: pointer;">&emsp;&emsp;&emsp;Lesing fra fil</summary>
-<blockquote style="font-size:200%;cursor: pointer;padding: 10px;">&emsp;&emsp;&emsp;&emsp;</blockquote>
-</details>
-<details><summary style="font-size:200%;cursor: pointer;">&emsp;&emsp;&emsp;Skriving til fil</summary>
-<blockquote style="font-size:200%;cursor: pointer;padding: 10px;">&emsp;&emsp;&emsp;&emsp;</blockquote>
-</details>
-</details>
-<details><summary style="font-size:200%;cursor: pointer;">&emsp;&emsp;Unntakshåndtering</summary>
-<blockquote style="font-size:200%;cursor: pointer;padding: 10px;">&emsp;&emsp;&emsp;</blockquote>
+<blockquote style="font-size:200%;cursor: pointer;padding: 10px;">&emsp;&emsp;&emsp;<a target="_blank" href=lecture5/notes/codes/generelt_om_filbehandling.ipynb>Generelt om filbehandling</a></blockquote>
 </details>
 <details><summary style="font-size:200%;cursor: pointer;">&emsp;&emsp;Programmering mot databaser</summary>
 <blockquote style="font-size:200%;cursor: pointer;padding: 10px;">&emsp;&emsp;&emsp;<a target="_blank" href=lecture5/notes/codes/databaser.ipynb>Lesing og skriving til database</a></blockquote>
