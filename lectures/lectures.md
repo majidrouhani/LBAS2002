@@ -90,7 +90,7 @@
 <blockquote style="font-size:200%;cursor: pointer;padding: 10px;">&emsp;&emsp;&emsp;<a target="_blank" href=lecture4/lab/lab-4.md>Lab-4</a></blockquote>
 </details>
 </details>
-<details><summary style="font-size:200%;cursor: pointer;">&emsp;Leksjon 5: Filbehandling, unntakshåndtering</summary>
+<details><summary style="font-size:200%;cursor: pointer;">&emsp;Leksjon 5: Filbehandling, unntakshåndtering, programmering mot databaser</summary>
 <details><summary style="font-size:200%;cursor: pointer;">&emsp;&emsp;Introduksjon (slides)</summary>
 <blockquote style="font-size:200%;cursor: pointer;padding: 10px;">&emsp;&emsp;&emsp;<a target="_blank" href=lecture5/notes/slides/lecture-5.pdf>Introduksjon</a></blockquote>
 </details>
