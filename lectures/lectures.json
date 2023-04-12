@@ -67,7 +67,7 @@
                     ]
                 }
                 ,{"Unntakshåndtering":""}
-                ,{"Programmering mot databaser":""}
+                ,{"Programmering mot databaser":{"Lesing og skriving til database": "lecture5/notes/codes/databaser.ipynb"}}
                 ,{"Lab 5": {"Lab-5":"lecture5/lab/lab-5.md"}}
             ]
         },

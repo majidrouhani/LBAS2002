@@ -106,7 +106,7 @@
 <blockquote style="font-size:200%;cursor: pointer;padding: 10px;">&emsp;&emsp;&emsp;</blockquote>
 </details>
 <details><summary style="font-size:200%;cursor: pointer;">&emsp;&emsp;Programmering mot databaser</summary>
-<blockquote style="font-size:200%;cursor: pointer;padding: 10px;">&emsp;&emsp;&emsp;</blockquote>
+<blockquote style="font-size:200%;cursor: pointer;padding: 10px;">&emsp;&emsp;&emsp;<a target="_blank" href=lecture5/notes/codes/databaser.ipynb>Lesing og skriving til database</a></blockquote>
 </details>
 <details><summary style="font-size:200%;cursor: pointer;">&emsp;&emsp;Lab 5</summary>
 <blockquote style="font-size:200%;cursor: pointer;padding: 10px;">&emsp;&emsp;&emsp;<a target="_blank" href=lecture5/lab/lab-5.md>Lab-5</a></blockquote>
