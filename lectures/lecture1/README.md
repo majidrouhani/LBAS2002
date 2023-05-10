@@ -1,57 +1,58 @@
-# Assumptions
+<!-- no toc -->
 
-- Has access to Jupyter hub for LBAS2002.
-- And/Or:
-  - Installed Visual Studio Code
-  - Installed extensions for
+## Forutsetninger
+
+- Har tilgang til Jupyter hub for LBAS2002.
+- Og / eller:
+  - Installert Visual Studio Code
+  - Installerte utvidelser for
     - Python
     - Jupyter
 
-# Learning outcomes
+## Læringsutbytte
 
 - Markdown
-  - Can distinuish between markup/markdown/html
-  - Can create simple md-files
+  - Kan skille mellom markup / markdown / html
+  - Kan lage enkle md-filer
   
 - Jupyter
-  - Understand what ipynb-file is and can use md in jupyter files
-  - Can write and execute simple Python code in jupyter
-  - Understand what magic commands are and how to use them
+  - Forstår hva en ipynb-fil er og kan bruke md i jupyter-filer
+  - Kan skrive og kjøre enkel Python-kode i jupyter
+  - Forstår hva magiske kommandoer er og hvordan du bruker dem
 
 - Python
-  - Understand the basic of python (code-structure, comments, input, output)
-  
-  
-# Topics
+  - Forstår grunnleggende om python (kode-struktur, kommentarer, inndata, utdata)
+    
+## Emner
 
-## Markdown
+### Markdown
 
-- Doc
-  - [Reference](https://commonmark.org/help/)
+- Dokumentasjon
+  - [Referanse](https://commonmark.org/help/)
   - [Markdown Guide](https://www.markdownguide.org/)
-- Basics of formatting in markdown
+- Grunnleggende om formatering i markdown
 
-## Jupyter
+### Jupyter
 
-- Doc:
-  - [Official docs site](https://docs.jupyter.org/en/latest/)
-  - [Markdown in Jupyter](https://www.datacamp.com/tutorial/markdown-in-jupyter-notebook)
-  - [Tutorials](https://www.datacamp.com/tutorial/tutorial-jupyter-notebook#whatisapp)
+- Dokumentasjon:
+  - [Offisiell dokumentasjonsside](https://docs.jupyter.org/en/latest/)
+  - [Markdown i Jupyter](https://www.datacamp.com/tutorial/markdown-in-jupyter-notebook)
+  - [Veiledninger](https://www.datacamp.com/tutorial/tutorial-jupyter-notebook#whatisapp)
 
-- Use of markdown in jupyter files
-- Use of html
-- Comments
-- Code
-- Magic commands
+- Bruk av markdown i jupyter-filer
+- Bruk av html
+- Kommentarer
+- Kode
+- Magiske kommandoer
 
-## Basic of Python
+### Grunnleggende om Python
 
-- Docs
-  - [Python docs](https://docs.python.org/)
-  - [IPython docs](https://ipython.readthedocs.io/en/stable/)
+- Dokumentasjon
+  - [Python-dokumentasjon](https://docs.python.org/)
+  - [IPython-dokumentasjon](https://ipython.readthedocs.io/en/stable/)
 
-- comments: line comment or group comment
-- grouping code using 'space'
-- print: writing to console
-- input: reading from the console
-- case sensitivity
+- kommentarer: linjekommentar eller gruppekommentar
+- gruppering av kode ved hjelp av 'mellomrom'
+- skriv ut: skriv til konsollen
+- inngang: lesing fra konsollen
+- store og små bokstaver
